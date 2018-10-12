@@ -1,0 +1,150 @@
+/*universal selector*/
+
+*{ 
+	/*margin: 0;
+	padding: 0; removes all margina and paddings*/ 
+	font-family: 'Anton', sans-serif;
+}
+
+h1{
+	margin: 0;
+}
+
+.container{
+	width: 700px;  
+	margin: 0 auto; /* - it wil only work if width is declared*/
+	background-color: #f2f2f2; /*off-white*/
+	color: #404040; /*off black*/
+}
+
+header{
+	background-color: #5EB1BF; /*aqua*/
+	border-radius: 10px;
+	letter-spacing: 3px;
+	height: 70px;
+	color: #001;
+	text-align: center;
+	line-height: 70px; /*if you want your text to be in the center, it should be the same value as height (px)*/
+	font-size: 10px;
+	margin-bottom: 20px;
+	font-size: 15px;
+}
+
+footer{
+	background-color: #F4E04D;
+	border-radius: 10px;
+	height: 70px;
+	line-height: 70px;
+	text-align: center;
+	color: #00001;
+}
+
+.dashboard-thumbnail{
+	display: inline-block; /**/
+	width: 40%;
+	height: 100px;
+}
+
+.dashboard-circles{
+	height: 70px;
+	width: 70px;
+	background-color: red;
+	border-radius: 40%;
+	text-align: center;
+	line-height: 70px;
+	color: #fff;
+	margin-right: 20px;
+	float: left;
+}
+
+#post-circle{
+	background-color: #4CAF50;
+	margin-left: 60px; 
+}
+
+#image-circle{
+	background-color: #09C;
+	margin-left: 60px;
+}
+
+#post-title{
+	width: 100%;
+	padding: 10px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+}
+
+#post-content{
+	width:100%;
+	height: 100px;
+	padding: 10px;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+}
+
+.btn{
+	border: none;
+	padding: 15px 30px;/*vertical, horizontal*/
+	font-size: 14px;
+	border-radius: 15px;
+	color: #fff;
+}
+
+.btn-blue {
+	background-color: #09c;
+}
+
+.btn-green{
+	background-color: #4CAF50;)
+}
+
+#btn-browse{
+	margin-left: 20px;
+	background-color: #4CAF50
+
+}
+
+.hide-overflow{
+	overflow: hidden;
+}
+
+.img-set{
+	height: 70px;
+	width: 100px;
+	background-color: white;
+	padding: 2px;
+	border-radius: 3px;
+	margin: 0 5px;
+}
+
+.img-set-holder{
+	text-align: center;
+}
+
+.inline-blocked{
+	display: inline-block;
+
+}
+
+.dashboard-text{
+	margin: 0;
+	font-size: 24px;
+	width: 100%;
+	text-align: center;
+}
+
+main{
+	padding: 20px;
+	border-radius: 10px;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 2 1'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='0' x2='0' y1='0' y2='1'%3E%3Cstop offset='0' stop-color='%2377aa77'/%3E%3Cstop offset='1' stop-color='%234fd'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23cf8' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23cf8' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='c' gradientUnits='userSpaceOnUse' x1='0' y1='0' x2='2' y2='2'%3E%3Cstop offset='0' stop-color='%23cf8' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23cf8' stop-opacity='1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect x='0' y='0' fill='url(%23a)' width='2' height='1'/%3E%3Cg fill-opacity='0.5'%3E%3Cpolygon fill='url(%23b)' points='0 1 0 0 2 0'/%3E%3Cpolygon fill='url(%23c)' points='2 1 2 0 0 0'/%3E%3C/g%3E%3C/svg%3E");
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+#btn-publish,
+#btn-upload,
+#btn-browse{
+	float: right;
+}
